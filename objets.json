@@ -1,0 +1,31 @@
+[
+  {
+    "name": "clé en or",
+    "description": "Permet d'ouvrir la bibliothèque.",
+    "location": "tenebres"
+  },
+  {
+    "name": "cle sacree",
+    "description": "Objet magique ultime pour vaincre le donjon.",
+    "location": "bibliotheque"
+  },
+  {
+    "name": "potion rouge",
+    "description": "Rend un peu de vitalité.",
+    "location": "hall"
+  },
+  {
+    "name": "baton",
+    "description": "Un vieux baton en bois.",
+    "location": "hall",
+    "combinableWith": "pierre",
+    "result": "marteau"
+  },
+  {
+    "name": "pierre",
+    "description": "Une grosse pierre solide.",
+    "location": "hall",
+    "combinableWith": "bâton",
+    "result": "marteau"
+  }
+]

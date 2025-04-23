@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Quel est le mot magique du donjon ?",
+    "answer": "abracadabra",
+    "roomId": "hall"
+  },
+  {
+    "question": "Quel animal peut voler sans ailes ?",
+    "answer": "aucun",
+    "roomId": "tenebres",
+    "deadly": true
+  },
+  {
+    "question": "Je suis grand quand je suis jeune et petit quand je suis vieux. Qui suis-je ?",
+    "answer": "une bougie",
+    "roomId": "salle6"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gardien spectral",
+    "message": "Seuls les vrais savent le mot sacré... sinon gare à vous.",
+    "roomId": "hall",
+    "isFriendly": true
+  },
+  {
+    "name": "Voleur masqué",
+    "message": "Je peux te donner une clé... ou pas 😈",
+    "roomId": "tenebres",
+    "isFriendly": false,
+    "givesItem": "clé en or"
+  },
+  {
+    "name": "Sage silencieux",
+    "message": "La vérité se trouve dans les livres... mais encore faut-il y accéder.",
+    "roomId": "bibliotheque",
+    "isFriendly": true
+  },
+  {
+    "name": "Sage du Nord",
+    "message": "Tu as prouvé ta sagesse. Voici ta récompense.",
+    "roomId": "hall",
+    "isFriendly": true,
+    "givesItem": "clé en argent",
+    "requirePuzzle": "Quel est le mot magique du donjon ?"
+  }
+]
+

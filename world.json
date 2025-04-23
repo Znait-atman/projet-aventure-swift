@@ -1,0 +1,76 @@
+{
+  "rooms": [
+    {
+      "id": "start",
+      "name": "Salle de départ",
+      "description": "Le début de votre aventure. Une lumière se profile au nord, une forêt au sud.",
+      "exits": {
+        "nord": "hall",
+        "sud": "salle5"
+      }
+    },
+    {
+      "id": "hall",
+      "name": "Hall du donjon",
+      "description": "Un large hall avec des portes menant à plusieurs directions.",
+      "exits": {
+        "sud": "start",
+        "ouest": "tenebres",
+        "est": "bibliotheque"
+      }
+    },
+    {
+      "id": "tenebres",
+      "name": "Salle des ténèbres",
+      "description": "Une salle obscure où se cache un voleur masqué.",
+      "exits": {
+        "est": "hall"
+      }
+    },
+    {
+      "id": "bibliotheque",
+      "name": "Bibliothèque scellée",
+      "description": "Une pièce remplie de savoir ancien, protégée par une serrure magique.",
+      "exits": {
+        "ouest": "hall"
+      },
+      "locked": true,
+      "requiredItem": "clé en or"
+    },
+    {
+      "id": "salle5",
+      "name": "Jardin Enchanté",
+      "description": "Un jardin mystérieux où la nature semble parler.",
+      "exits": {
+        "nord": "start",
+        "ouest": "salle6"
+      }
+    },
+    {
+      "id": "salle6",
+      "name": "Tour Sombre",
+      "description": "Une tour inquiétante surplombant le jardin.",
+      "exits": {
+        "est": "salle5",
+        "ouest": "salle7"
+      }
+    },
+    {
+      "id": "salle7",
+      "name": "Crypte Silencieuse",
+      "description": "Une crypte oubliée, gardienne de l'énigme finale.",
+      "exits": {
+        "est": "salle6",
+        "ouest": "victoire"
+      }
+    },
+    {
+      "id": "victoire",
+      "name": "Salle du Trésor",
+      "description": "La salle légendaire contenant le trésor et la sortie.",
+      "exits": {
+        "est": "salle7"
+      }
+    }
+  ]
+}

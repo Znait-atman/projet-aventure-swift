@@ -1,0 +1,19 @@
+{
+  "vie" : 100,
+  "visited" : [
+    "salle5",
+    "salle7",
+    "salle6",
+    "tenebres",
+    "bibliotheque",
+    "start",
+    "hall"
+  ],
+  "inventory" : [
+    "clé en argent",
+    "clé en or",
+    "cle sacree"
+  ],
+  "player" : "zara",
+  "score" : 15
+}
