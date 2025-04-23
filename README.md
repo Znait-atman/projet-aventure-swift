@@ -60,17 +60,17 @@ swiftc main.swift -o main
 
 ---
 
-## 💾 Sauvegarde
+##  Sauvegarde
 
 Un fichier `save.json` est généré automatiquement à la fin de la partie. Il enregistre :
 - Le nom du joueur
 - Le score
 - Les salles visitées
-- *(facultatif)* l’inventaire et la vie restante
+- l’inventaire et la vie restante
 
 ---
 
-## 🧪 Exemple de parcours pour gagner
+##  Exemple de parcours pour gagner
 
 ```text
 start
@@ -87,7 +87,7 @@ salle5 → ouest → salle6 → ouest → salle7
 
 ---
 
-## 👩‍💻 Auteure
+##  Auteure
 
 Projet réalisé par **NAIT ATMAN ZAHRA**  
 Licence 3 Informatique — Université Paris 8  
