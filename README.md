@@ -1,10 +1,10 @@
-# 📜 Jeu d'Aventure Textuel - Swift
+#  Jeu d'Aventure Textuel - Swift
 
 Bienvenue dans le jeu d'aventure textuel développé en Swift ! Ce projet vous plonge dans un univers d'exploration, de logique et de réflexion, où chaque salle peut contenir des objets, des énigmes ou des personnages mystérieux.
 
 ---
 
-## 🎮 Objectif du jeu
+##  Objectif du jeu
 
 Vous incarnez un aventurier explorant un monde fantastique composé de différentes salles. Votre mission est de :
 - Explorer les lieux
@@ -16,7 +16,7 @@ Vous incarnez un aventurier explorant un monde fantastique composé de différen
 
 ---
 
-## ▶️ Lancer le jeu
+##  Lancer le jeu
 
 1. Assurez-vous d’avoir **Swift installé** sur votre machine.
 2. Placez tous les fichiers dans le même dossier :
@@ -34,7 +34,7 @@ swiftc main.swift -o main
 
 ---
 
-## 📋 Commandes disponibles
+##  Commandes disponibles
 
 - `nord`, `sud`, `est`, `ouest` : se déplacer
 - `prendre` : ramasser un objet
@@ -51,7 +51,7 @@ swiftc main.swift -o main
 
 ---
 
-## 🧠 Astuces
+##  Astuces
 
 - Certaines salles sont **verrouillées** : il faut posséder l'objet requis pour y entrer.
 - Les **PNJ** peuvent donner des objets importants après une énigme.
@@ -82,14 +82,9 @@ tenebres → parler : cle en or
 bibliotheque → prendre : cle sacree
 ← ouest ← hall ← sud
 salle5 → ouest → salle6 → ouest → salle7
-→ enigme : une bougie → ouest → victoire 🏆
+→ enigme : une bougie → ouest → victoire 
 ```
 
 ---
 
-##  Auteure
-
-Projet réalisé par **NAIT ATMAN ZAHRA**  
-Licence 3 Informatique — Université Paris 8  
-Module iOS — Année 2025
 
